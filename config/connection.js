@@ -5,11 +5,12 @@ if (process.env.JAWSDB_URL) {
 } else {
     connection = mysql.createConnection({
         host: process.env.host,
-        port: process.env.port,
-        user: process.env.username,
+        port: process.env.dbport,
+        user: process.env.dbuser,
         password: process.env.password,
         database: process.env.database
     });
 };
+console.log(process.env.dbuser)
 connection.connect();
 module.exports = connection;
