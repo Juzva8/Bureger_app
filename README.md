@@ -21,6 +21,12 @@
 ## Usage
 
 You will hav to navigate to file using your terminal and run code node server.js
+
+## Link to deployed version of the app
+
+ https://github.com/Juzva8/Bureger_app
+ https://immense-wave-86369.herokuapp.com/burgers
+
 ## License
   This project is licensed under the MIT License license.
 ```
